@@ -1,0 +1,55 @@
+2026-07-28T23:13:04.275941Z [-] Reading configuration from ['/home/sourabh_45/cowrie/etc/cowrie.cfg.dist', '/home/sourabh_45/cowrie/etc/cowrie.cfg']
+2026-07-28T23:13:04.740789Z [-] Python Version 3.13.14 (main, Jun 10 2026, 18:10:12) [GCC 15.2.0]
+2026-07-28T23:13:04.740826Z [-] Twisted Version 25.5.0
+2026-07-28T23:13:04.740836Z [-] Cowrie Version 2.9.19.dev5+g593017d3d.d20260605
+2026-07-28T23:13:04.740843Z [-] Sensor UUID: c8f75668-49ee-11f1-be54-000c296ea7ce
+2026-07-28T23:13:04.743419Z [-] Loaded output engine: jsonlog
+2026-07-28T23:13:04.744844Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 25.5.0 (/home/sourabh_45/cowrie/cowrie-env/bin/python3 3.13.14) starting up.
+2026-07-28T23:13:04.744932Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-07-28T23:13:04.751475Z [-] CowrieSSHFactory starting on 2222
+2026-07-28T23:13:04.752264Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7fbe8d57d010>
+2026-07-28T23:13:04.805326Z [-] Ready to accept SSH connections
+2026-07-28T23:13:36.490707Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 127.0.0.1:57100 (127.0.0.1:2222) [session: 0f841c474583]
+2026-07-28T23:13:36.491999Z [HoneyPotSSHTransport,0,127.0.0.1] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-07-28T23:13:36.494188Z [HoneyPotSSHTransport,0,127.0.0.1] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-07-28T23:13:36.494900Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha1' key alg=b'ssh-rsa'
+2026-07-28T23:13:36.494995Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2026-07-28T23:13:36.495039Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2026-07-28T23:13:37.125671Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2026-07-28T23:13:37.126904Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2026-07-28T23:13:37.127581Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2026-07-28T23:13:37.128133Z [HoneyPotSSHTransport,0,127.0.0.1] Got remote error, code 11 reason: b'Bye Bye'
+2026-07-28T23:13:37.128445Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2026-07-28T23:13:37.128538Z [HoneyPotSSHTransport,0,127.0.0.1] Connection lost after 0.6 seconds
+2026-07-28T23:13:37.346993Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 127.0.0.1:57116 (127.0.0.1:2222) [session: d105582ad778]
+2026-07-28T23:13:37.348096Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 127.0.0.1:57118 (127.0.0.1:2222) [session: 70e31debc12e]
+2026-07-28T23:13:37.348744Z [HoneyPotSSHTransport,1,127.0.0.1] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-07-28T23:13:37.349478Z [HoneyPotSSHTransport,2,127.0.0.1] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-07-28T23:13:37.350508Z [HoneyPotSSHTransport,1,127.0.0.1] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-07-28T23:13:37.351506Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha1' key alg=b'ssh-rsa'
+2026-07-28T23:13:37.351579Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2026-07-28T23:13:37.351743Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2026-07-28T23:13:37.352051Z [HoneyPotSSHTransport,2,127.0.0.1] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-07-28T23:13:37.353289Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha1' key alg=b'ssh-rsa'
+2026-07-28T23:13:37.353407Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2026-07-28T23:13:37.353482Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2026-07-28T23:13:38.542851Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2026-07-28T23:13:38.543071Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2026-07-28T23:13:38.543763Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2026-07-28T23:13:38.544293Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2026-07-28T23:13:38.567726Z [HoneyPotSSHTransport,2,127.0.0.1] login attempt [b'root'/b'12345'] succeeded
+2026-07-28T23:13:38.568274Z [HoneyPotSSHTransport,2,127.0.0.1] Initialized emulated server as architecture: linux-x64-lsb
+2026-07-28T23:13:38.568490Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2026-07-28T23:13:38.568630Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2026-07-28T23:13:38.568903Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2026-07-28T23:13:38.569074Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2026-07-28T23:13:38.569803Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2026-07-28T23:13:38.570271Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2026-07-28T23:13:38.570517Z [HoneyPotSSHTransport,1,127.0.0.1] login attempt [b'root'/b'123456'] failed
+2026-07-28T23:13:38.581894Z [HoneyPotSSHTransport,2,127.0.0.1] avatar root logging out
+2026-07-28T23:13:38.582180Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2026-07-28T23:13:38.582312Z [HoneyPotSSHTransport,2,127.0.0.1] Connection lost after 1.2 seconds
+2026-07-28T23:13:39.573154Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'
+2026-07-28T23:13:39.573481Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2026-07-28T23:13:39.577833Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2026-07-28T23:13:39.578036Z [HoneyPotSSHTransport,1,127.0.0.1] Connection lost after 2.2 seconds

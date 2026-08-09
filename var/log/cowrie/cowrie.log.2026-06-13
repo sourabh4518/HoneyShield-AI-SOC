@@ -1,0 +1,11 @@
+2026-06-13T03:36:07.103656Z [-] Reading configuration from ['/home/sourabh_45/cowrie/etc/cowrie.cfg.dist', '/home/sourabh_45/cowrie/etc/cowrie.cfg']
+2026-06-13T03:36:07.625160Z [-] Python Version 3.13.12 (main, Feb  4 2026, 15:06:39) [GCC 15.2.0]
+2026-06-13T03:36:07.625196Z [-] Twisted Version 25.5.0
+2026-06-13T03:36:07.625207Z [-] Cowrie Version 2.9.19.dev5+g593017d3d.d20260605
+2026-06-13T03:36:07.625214Z [-] Sensor UUID: c8f75668-49ee-11f1-be54-000c296ea7ce
+2026-06-13T03:36:07.627778Z [-] Loaded output engine: jsonlog
+2026-06-13T03:36:07.628818Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 25.5.0 (/home/sourabh_45/cowrie/venv/bin/python3 3.13.12) starting up.
+2026-06-13T03:36:07.628929Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-06-13T03:36:07.633959Z [-] CowrieSSHFactory starting on 2222
+2026-06-13T03:36:07.634593Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f8258e49e80>
+2026-06-13T03:36:07.684144Z [-] Ready to accept SSH connections

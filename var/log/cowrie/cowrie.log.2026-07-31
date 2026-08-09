@@ -1,0 +1,7 @@
+2026-07-31T01:20:17.830096Z [twisted.internet.base#info] Received SIGTERM, shutting down.
+2026-07-31T01:20:17.833073Z [-] (TCP Port 2223 Closed)
+2026-07-31T01:20:17.834372Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Stopping factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7f7324a2d940>
+2026-07-31T01:20:17.834687Z [-] (TCP Port 2222 Closed)
+2026-07-31T01:20:17.834864Z [cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f7324a2d010>
+2026-07-31T01:20:17.836807Z [twisted.internet.base#info] Main loop terminated.
+2026-07-31T01:20:17.838045Z [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
