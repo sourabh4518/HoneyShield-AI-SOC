@@ -529,7 +529,7 @@ types-flake8-bugbear==25.11.29
 types-flake8-builtins==3.1
 types-flake8-docstrings==1.7
 types-flake8-rst-docstrings==0.4
-types-flake8-simplify==0.30
+types-flake8-simplify==0.30.0.20260408
 types-flake8-typing-imports==1.17
 types-Flask-Cors==6.0
 types-Flask-Migrate==4.1
