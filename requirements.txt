@@ -553,7 +553,7 @@ types-httplib2==0.31.2
 types-hvac==2.4
 types-ibm-db==3.2.6
 types-icalendar==6.3.2
-types-inifile==0.4
+types-inifile==0.4.0.20260518
 types-JACK-Client==0.5
 types-Jetson.GPIO==2.1.12
 types-jmespath==1.1
