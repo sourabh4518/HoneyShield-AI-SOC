@@ -503,7 +503,7 @@ types-click-log==0.4
 types-click-shell==2.1
 types-click-spinner==0.1
 types-click-web==0.8
-types-colorama==0.4
+types-colorama==0.4.15.20260508
 types-colorful==0.5
 types-console-menu==0.8
 types-convertdate==2.4
